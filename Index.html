@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link  rel="stylesheet" href="css/webfonts/all.css" />
+    <link rel="stylesheet" href="css/style.css">
+<script src=index.js ></script>
+    <title>MKS</title>
+</head>
+
+<body>
+    <!-- --------- Navigation Starts----------- -->
+
+    <div class="navbar">
+        <img src="images/logo.png" alt="" class="logoicon">
+        <div class="linknav">
+            <ul class="nav">
+                <li class="list"><a href="#">Destination</a></li>
+                <li class="list"><a href="#">Hotels</a></li>
+                <li class="list"><a href="#">Flights</a></li>
+                <li class="list"><a href="#">Bookings</a></li>
+                <li class="list"><a href="#">Login</a></li>
+                <li class="signup"><a href="#" class="signup-btn">SignUp</a></li>
+                <li class="dropdown"><a  class="dropbtn"
+                    onclick="myFunction()" href="#" id="lang">EN ></a>
+                        <div class="dropdown-content" id="myDropdown">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        </div> 
+                </li>
+            </ul>
+        </div>
+        <div class="linkburger" id="linkburger"><i class="fas fa-bars" id="hamburger" onclick="toggleburger()"></i></div>
+        <div class="hiddennav" id="hiddennav"><ul class="navmenu">
+            <li class="lists"><a href="#">Destination</a></li>
+            <li class="lists"><a href="#">Hotels</a></li>
+            <li class="lists"><a href="#">Flights</a></li>
+            <li class="lists"><a href="#">Bookings</a></li>
+            <li class="lists"><a href="#">Login</a></li>
+            <li class="signups"><a href="#" class="signups-btn">SignUp</a></li>
+            <li class="dropdowns"><a  class="dropbtns"
+                onclick="myFunctions()" href="#" id="langs">EN ></a>
+                    <div class="dropdowns-content" id="myDropdowns">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    </div> 
+            </li>
+        </ul></div>
+    </div>
+
+    <!-- --------- Navigation ----------- -->
+
+    <!-- --------- Hero Starts----------- -->
+
+    <div class="hero">
+        <div class="textcontainer">
+            <div class="textarea1">
+                <h2 class="best-destination">BEST DESTINATION AROUND THE WORLD</h2>
+                <h1>Travel, enjoy and live a new and full life</h1>
+                <p>
+                    Built wicket longer Admire do barton vanity itself do in it. <br>
+                    Preffered to sportmen it engrossed listenin.
+                    Park gate <br>sell they west hard for the.
+                </p>
+
+                <div class="playbtn-cont">
+                <button class="contact-btn">Find out more</button>
+
+                <div class="play-cont">
+                <div class="play-button"><i class="fas fa-play play-icon"></i></div>
+                <div class="booking-btn">Play Demo</div></div>
+            </div>
+
+            </div>
+        </div>
+        <div class="piccontainer">
+            <img src="images/hero.png" alt="" />
+        </div>
+    </div>
+
+    <!-- --------- Hero Ends----------- -->
+
+    <!----------- Services Starts------------->
+
+    <div class="services1">
+        <div class="servicetitles">
+            <h5>CATEGORY</h5>
+            <h3>We Offer Best Services</h3>
+        </div>
+        <div class="servicecards">
+            <div class="card">
+                <img src="images/icon1.png" alt="" width="75" />
+                <h4>Calculated Weather</h4>
+                <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+            </div>
+            <div class="card">
+                <img src="images/icon2.png" alt="Avatar" width="75" />
+                <h4>Best Flights</h4>
+                <p>Engrossed listening. Park gate sell they west hard for the.</p>
+            </div>
+            <div class="card">
+                <img src="images/icon3.png" alt="Avatar" width="75" />
+                <h4>Local Events</h4>
+                <p>
+                    Barton vanity itself do in it. Preferd to men it engrossed
+                    listening.
+                </p>
+            </div>
+            <div class="card">
+                <img src="images/icon4.png" alt="Avatar" width="75" />
+                <h4>Customization</h4>
+                <p>We deliver outsourced aviation services for military customers</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="services2">
+        <div class="servicetitles">
+            <h5>Top Selling</h5>
+            <h3>We Offer Best Services</h3>
+        </div>
+        <div class="servicecards">
+            <div class="destination-card">
+                <img src="images/dest1.jpg" alt="Avatar" width="75" />
+                <div class="content">
+                    <h5>Rome, Italty</h5>
+                    <h5>$5,42k</h5>
+                </div>
+                <div class="time">
+                    <h6>10 Days Trip</h6>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="images/dest2.jpg" alt="Avatar" width="75" />
+                <div class="content">
+                    <h5>London, UK</h5>
+                    <h5>$4.2k</h5>
+                </div>
+                <div class="time">
+                    <h6>12 Days Trip</h6>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="images/dest3.jpg" alt="Avatar" width="75" />
+                <div class="content">
+                    <h5>Full Europe</h5>
+                    <h5>$15k</h5>
+                </div>
+                <div class="time">
+                    <h6>28 Days Trip</h6>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!----------- Services Ends------------->
+
+    <!----------- Easy steps Starts------------->
+
+    <div class="easysteps">
+
+    </div>
+
+    <!----------- Easy steps Ends------------->
+
+    <!----------- Testimonials Starts------------->
+
+    <div class="Testimonial">
+        <div class="testi">
+    <h4>TESTIMONIALS</h4>
+    <h1 class="peoplesay">What people say about us.</h1>
+    <img src="images/carousel.jpg" alt="" />
+</div>
+
+<div class="testcont">
+    <div class="testcontainer">
+        <div class="testiperson">
+            <img src="images/profile1.jpg" alt="" class="testiman" />
+        </div>        
+        <div class="testextarea">
+            <div class="subtext">
+                <h5>
+                    "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."
+                </h5><br/><br/>
+                <h4>
+                    Mike taylor
+                </h4>
+                <h6>
+                   Lahore, Pakistan
+                </h6>
+                            </div>
+        </div>
+    </div>
+
+    <div class="testauthor"><br/><br/><br/><br/><br/><br/><br/><br/><h4>
+        Chris Thomas
+    </h4>
+    <h6>
+       CEO of Red Button
+    </h6></div>
+</div>
+</div>
+
+
+    <!----------- Testimonials Ends------------->
+
+    <!----------- Subscribe Starts------------->
+
+    <div class="Subscribe">
+        <div class="subcontainer">
+            <div class="share-arrow">
+                <img src="images/send.png" alt="" />
+            </div>
+            <div class="shape-bg1">
+                <img src="images/shape-bg1.png" alt="" />
+            </div>
+            <div class="shape-bg2">
+                <img src="images/shape-bg2.png" alt="" />
+            </div>
+            <div class="subtextarea">
+                <div class="subtext">
+                    <h2>
+                        Subscribe to get information, latest news and other interesting
+                        offers about Jadoo
+                    </h2>
+                    <form action="" class="form-text">
+                        <div class="input-group-icon">
+                            <input class="form-control" type="email" placeholder="Enter Email " />
+                            <img class="input-box-icon" src="images/mail.svg" alt="" width="17" />
+                        </div>
+                        <div class="subscribe-btn">
+                            <button class="btn-sub">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------- Subscribe Ends------------->
+
+    <!----------- Footer Starts------------->
+
+    <footer>
+        <div class="footer">
+            <div class="footer-col f-col-1">
+                <div class="logo"> <img src="images/logo.png" alt="" class="logoicon"></div>
+                <p>Book your trip in minute, get full Control for much longer.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Mobile</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="">Help/FAQ</a></li>
+                    <li><a href="">Press</a></li>
+                    <li><a href="">Affiliate</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>More</h4>
+                <ul>
+                    <li><a href="">Airlinefees</a></li>
+                    <li><a href="">Airline</a></li>
+                    <li><a href="">Low fare tips</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="social-icons">
+                    <div class="links"><i class="fab fa-facebook"></i></div>
+                    <div class="links"><i class="fab fa-instagram"></i></div>
+                    <div class="links"><i class="fab fa-twitter"></i></div>
+                </div>
+                <h4 class="footer-app">
+                    Discover our app
+                </h4>
+                <div>
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/apple-store.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="end-text">
+            <p>All rights reserved@Jadoo.co</p>
+        </div>
+    </footer>
+
+    <!----------- Footer Ends------------->
+</body>
+
+</html>
